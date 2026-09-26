@@ -102,6 +102,9 @@ android.gradle_dependencies =
 # (list) Java classes to add as services to the manifest.
 android.services = org.kivy.android.PythonService
 
+# ai가 추가하래서 한거
+android.accept_sdk_license = True
+
 # (bool) Treat the android.gradle_dependencies as direct dependencies to the
 # .gradle file. Don't set to 1 unless you know what you're doing!
 # android.add_src = False
